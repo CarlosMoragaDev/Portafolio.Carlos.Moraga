@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Contacto</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <!-- Navegador de la página utilizando NAV-->
+            <div class="logo">
+                <img src="img/stlogo.png" alt="logo santo tomas" id="logo">
+            </div>
+            <nav><!-- Navegador con sus respectivas referencias  -->
+                <div class="menu1">                 
+                    <a href="Inicio.html" class="lista">Inicio/</a>
+                    <a href="Experiencia.html" class="lista">Experiencia/</a>
+                    <a href="Proyectos.html" class="lista">Proyectos/</a>
+                    <a href="Contacto.html" class="lista">Contacto/</a>                        
+                </div>
+            </nav>
+
+        </header>
+            
+    <hr>
+        <!-- Utilizando la función Form se creó un formulario para contacto -->
+        <h1 class="contacto">Contacto</h1>
+        <form class="contacto1" action="registar.php"><!-- Se basa en la inclusión de input con sus respectivos tipos-->
+            <p>Nombre Completo:<input type="text" name="nCompleto" placeholder="Juan Antonio Perez Castro"></p>
+            <p>Correo Electrónico: <input type="text" name="cElectronico" placeholder="juanperez1@gmail.com"></p>
+            <p>Número de contacto: <input type="text" name="telefono" placeholder="+56912345678"></p>
+            <p>Asunto: <input type="text" name="asunto" placeholder="Indique su asunto"></p>
+            <p>Comentarios:<textarea id="tArea" name="comentario" cols="30" rows="10" maxlength="500" placeholder="Ingrese sus comentarios"></textarea></p>
+            <p><input type="submit" name="Enviar"></p>            
+        </form>
+
+        <hr>
+
+        <!-- Footer de la página con comentarios de autor -->
+        <footer class="descripcion">
+            <p>Portafolio Carlos Moraga Vergara, Estudiante de la carrera Analista Programador</p><hr>
+            <p>Correo Electrónico: c.moraga.tradu@gmail.com</p>
+        </footer>
+
+
+    </body>
+    
+</html>
