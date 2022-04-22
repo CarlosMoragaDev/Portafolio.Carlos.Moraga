@@ -1,0 +1,87 @@
+/* Las características de este body cambian las características del cuerpo de la página, se indican el tipo de fuente, margenes y color  */
+body{ 
+    font: 15px 'Calibri';
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+
+/*Inicio: desarrollo del estilo que se le dio a la pagina Inicio*/
+
+/* Características de la tabla, celda y filas de la página Inicio*/
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;    
+}
+
+/* Permite que la tabla de la página Inicio aparezca en el centro */
+table{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+/* Características que se le dan a las celdas y filas de las tablas */
+th, td{
+    padding: 15px;
+}
+
+/* Características que se le dan a las etiquetas h1, h2*/
+h1, h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Diseño que se le dió a la imagen */
+.pokemon img{
+    height: 200px;
+    display: block;
+    margin: 10px auto;
+}
+
+/*Experiencia: desarrollo del estilo que se le dio a la pagina Experiencia*/
+
+/* Diseño que se le dió a la imagen */
+.conan img{
+    height: 200px;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Característicac de lista que posee la página Experiencia, como centar y que no tenga estilo*/
+.listaL{
+    text-align: center;
+    list-style: none;
+    
+}
+
+/* Diseño que se le dió a la imagen */
+.lenguaje2 img{
+    height: 200px;
+    display: block;
+    margin: 10px auto;
+}
+
+/*Proyectos: desarrollo del estilo que se le dio a la pagina Proyectos*/
+
+/* Diseño que se le dió a la imagen */
+.imagenTrabajo img{
+    height: 350px;
+    display: block;
+    margin: 10px auto;
+}
+/*Contacto: desarrollo del estilo que se le dio a la pagina Contacto*/
+
+/* Diseño que se le da a la tabla Contacto */
+.contacto1{
+    border: 2px solid black;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+/* Permite que no se pueda alterar el tamaño del text area*/
+textarea{
+    resize: none;
+}
