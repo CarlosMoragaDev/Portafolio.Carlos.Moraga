@@ -1,2 +1,2 @@
 # Portafolio.Carlos.Moraga
-Portafolio diseñadp para evaluación de aprendizaje
+Portafolio diseñado para evaluación de aprendizaje
